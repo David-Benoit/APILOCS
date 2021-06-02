@@ -6,8 +6,8 @@ async function main(){
     //Database connection 
     await connect();
     //express application
-    app.listen(4000);
-    console.log('listen on port 4000: connected')
+    app.listen(3000);
+    console.log('listen on port 3000: connected')
 }
 
 main();
